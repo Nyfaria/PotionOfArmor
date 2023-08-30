@@ -1,5 +1,6 @@
 plugins {
     id 'com.matyrobbrt.mc.registrationutils' version "$regutils_version" // The plugin is located at the Gradle plugin portal
+    id 'dev._100media.gradleutils' version '1.+'
 }
 registrationUtils {
     group 'com.nyfaria.nyfsmultiloader.registration'
@@ -56,6 +57,11 @@ subprojects {
             name = 'BlameJared Maven (CrT / Bookshelf)'
             url = 'https://maven.blamejared.com'
         }
+        maven {
+            name = 'Ladysnake Mods'
+            url = 'https://maven.ladysnake.org/releases'
+        }
+        maven hundredMedia.get100MediaMaven()
     }
 
     tasks.withType(JavaCompile).configureEach {

@@ -28,6 +28,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         // Stream.of()
         //         .map(Supplier::get)
         //         .forEach(this::simpleBlockItemModel);
+
     }
 
     protected ItemModelBuilder simpleBlockItemModel(Block block) {

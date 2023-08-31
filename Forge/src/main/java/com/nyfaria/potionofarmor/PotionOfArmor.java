@@ -16,9 +16,9 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod(Constants.MODID)
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ExampleMod {
+public class PotionOfArmor {
     
-    public ExampleMod() {
+    public PotionOfArmor() {
         Constants.LOG.info("Hello Forge world!");
         CommonClass.init();
     }

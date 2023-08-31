@@ -5,8 +5,9 @@ import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.player.AbstractClientPlayer;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.LivingEntity;
 
-public class DiamondMagicArmorLayer<T extends AbstractClientPlayer> extends MagicArmorLayer<T, EntityModel<T>> {
+public class DiamondMagicArmorLayer<T extends LivingEntity> extends MagicArmorLayer<T, EntityModel<T>> {
 
     private static final ResourceLocation RESOURCE_LOCATION = new ResourceLocation(Constants.MODID,"textures/entity/player/diamond_layer.png");
     private final EntityModel<T> model;

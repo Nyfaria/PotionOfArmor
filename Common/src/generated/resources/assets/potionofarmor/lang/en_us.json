@@ -1,0 +1,16 @@
+{
+  "effect.potionofarmor.magic_armor": "Magic Armor",
+  "item.minecraft.lingering_potion.effect.armor": "Lingering Potion Of Armor",
+  "item.minecraft.lingering_potion.effect.diamond_armor": "Lingering Potion Of Diamond Armor",
+  "item.minecraft.lingering_potion.effect.iron_armor": "Lingering Potion Of Iron Armor",
+  "item.minecraft.lingering_potion.effect.netherite_armor": "Lingering Potion Of Netherite Armor",
+  "item.minecraft.potion.effect.armor": "Potion Of Armor",
+  "item.minecraft.potion.effect.diamond_armor": "Potion Of Diamond Armor",
+  "item.minecraft.potion.effect.iron_armor": "Potion Of Iron Armor",
+  "item.minecraft.potion.effect.netherite_armor": "Potion Of Netherite Armor",
+  "item.minecraft.splash_potion.effect.armor": "Splash Potion Of Armor",
+  "item.minecraft.splash_potion.effect.diamond_armor": "Splash Potion Of Diamond Armor",
+  "item.minecraft.splash_potion.effect.iron_armor": "Splash Potion Of Iron Armor",
+  "item.minecraft.splash_potion.effect.netherite_armor": "Splash Potion Of Netherite Armor",
+  "itemGroup.potionofarmor": "Multi Loader Template"
+}

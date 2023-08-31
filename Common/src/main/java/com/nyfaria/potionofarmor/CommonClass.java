@@ -3,6 +3,11 @@ package com.nyfaria.potionofarmor;
 import com.nyfaria.potionofarmor.init.BlockInit;
 import com.nyfaria.potionofarmor.init.EntityInit;
 import com.nyfaria.potionofarmor.init.ItemInit;
+import com.nyfaria.potionofarmor.init.MobEffectInit;
+import com.nyfaria.potionofarmor.init.PotionInit;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.alchemy.PotionBrewing;
+import net.minecraft.world.item.alchemy.PotionUtils;
 
 // This class is part of the common project meaning it is shared between all supported loaders. Code written here can only
 // import and access the vanilla codebase, libraries used by vanilla, and optionally third party libraries that provide
@@ -17,5 +22,7 @@ public class CommonClass {
         ItemInit.loadClass();
         BlockInit.loadClass();
         EntityInit.loadClass();
+        MobEffectInit.loadClass();
+        PotionInit.loadClass();
     }
 }

@@ -12,10 +12,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.nyfaria.potionofarmor.ExampleMod"
+      "com.nyfaria.potionofarmor.PotionOfArmor"
     ],
     "client": [
-      "com.nyfaria.potionofarmor.ExampleModClient"
+      "com.nyfaria.potionofarmor.PotionOfArmorClient"
     ]
   },
   "mixins": [

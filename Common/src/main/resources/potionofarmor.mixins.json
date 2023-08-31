@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.nyfaria.nyfsmultiloader.mixin",
+  "package": "com.nyfaria.potionofarmor.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "${mod_id}.refmap.json",
   "mixins": [
+    "RangedAttributeMixin"
   ],
   "client": [
   ],

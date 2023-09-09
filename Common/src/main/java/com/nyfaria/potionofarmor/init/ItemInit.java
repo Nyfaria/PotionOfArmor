@@ -1,7 +1,7 @@
 package com.nyfaria.potionofarmor.init;
 
-import com.nyfaria.nyfsmultiloader.registration.RegistrationProvider;
-import com.nyfaria.nyfsmultiloader.registration.RegistryObject;
+import com.nyfaria.potionofarmor.registration.RegistrationProvider;
+import com.nyfaria.potionofarmor.registration.RegistryObject;
 import com.nyfaria.potionofarmor.Constants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

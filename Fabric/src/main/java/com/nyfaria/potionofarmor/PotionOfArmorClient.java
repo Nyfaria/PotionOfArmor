@@ -9,9 +9,7 @@ public class PotionOfArmorClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         LivingEntityFeatureRendererRegistrationCallback.EVENT.register(
-                (entityType,entityRenderer,registrationHelper,context)->{
-                    registrationHelper.register(new DiamondMagicArmorLayer<>(entityRenderer));
-                }
+                (entityType,entityRenderer,registrationHelper,context)-> registrationHelper.register(new DiamondMagicArmorLayer<>(entityRenderer))
         );
     }
 }

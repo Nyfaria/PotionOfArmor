@@ -1,6 +1,6 @@
 package com.nyfaria.potionofarmor.datagen;
 
-import com.nyfaria.nyfsmultiloader.registration.RegistryObject;
+import com.nyfaria.potionofarmor.registration.RegistryObject;
 import com.nyfaria.potionofarmor.init.BlockInit;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;

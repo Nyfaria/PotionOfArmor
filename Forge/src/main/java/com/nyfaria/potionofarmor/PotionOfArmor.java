@@ -19,7 +19,6 @@ import net.minecraftforge.fml.common.Mod;
 public class PotionOfArmor {
     
     public PotionOfArmor() {
-        Constants.LOG.info("Hello Forge world!");
         CommonClass.init();
     }
 

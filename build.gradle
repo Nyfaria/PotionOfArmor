@@ -3,7 +3,7 @@ plugins {
     id 'dev._100media.gradleutils' version '1.+'
 }
 registrationUtils {
-    group 'com.nyfaria.nyfsmultiloader.registration'
+    group 'com.nyfaria.potionofarmor.registration'
     projects {
         Fabric { type 'fabric' } // The fabric project
         Forge { type 'forge' } // The forge project

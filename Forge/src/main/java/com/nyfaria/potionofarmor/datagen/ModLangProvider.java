@@ -1,7 +1,7 @@
 package com.nyfaria.potionofarmor.datagen;
 
 import com.google.common.collect.ImmutableMap;
-import com.nyfaria.nyfsmultiloader.registration.RegistryObject;
+import com.nyfaria.potionofarmor.registration.RegistryObject;
 import com.nyfaria.potionofarmor.Constants;
 import com.nyfaria.potionofarmor.init.BlockInit;
 import com.nyfaria.potionofarmor.init.EntityInit;
@@ -45,7 +45,6 @@ public class ModLangProvider extends LanguageProvider {
                 PotionInit.POTION_OF_DIAMOND_ARMOR,
                 PotionInit.POTION_OF_NETHERITE_ARMOR
         ).forEach(this::potionLang);
-        add("itemGroup." + Constants.MODID, Constants.MOD_NAME);
         addEffect(MobEffectInit.MAGIC_ARMOR, "Magic Armor");
 
     }

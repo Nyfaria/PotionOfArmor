@@ -11,6 +11,5 @@
   "item.minecraft.splash_potion.effect.armor": "Splash Potion Of Armor",
   "item.minecraft.splash_potion.effect.diamond_armor": "Splash Potion Of Diamond Armor",
   "item.minecraft.splash_potion.effect.iron_armor": "Splash Potion Of Iron Armor",
-  "item.minecraft.splash_potion.effect.netherite_armor": "Splash Potion Of Netherite Armor",
-  "itemGroup.potionofarmor": "Multi Loader Template"
+  "item.minecraft.splash_potion.effect.netherite_armor": "Splash Potion Of Netherite Armor"
 }

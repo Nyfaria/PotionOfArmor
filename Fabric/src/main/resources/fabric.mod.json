@@ -8,7 +8,7 @@
     "${mod_authors}"
   ],
   "license": "ARR",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/${mod_id}/textures/logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [
